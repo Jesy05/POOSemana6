@@ -14,5 +14,10 @@ public class Main {
                     "Ingresa la edad #" + (i + 1) + ": "));
             edades[i] = edad;
         }
+        StringBuilder mensaje = new StringBuilder("Edades:\n");
+        for (int e : edades) {
+            mensaje.append(e).append("\n");
+        }
+        JOptionPane.showMessageDialog(null, mensaje.toString(), "Edades", JOptionPane.INFORMATION_MESSAGE);
     }
 }

@@ -1,4 +1,4 @@
-package main;
+package mainejercicios;
 
 import javax.swing.JOptionPane;
 

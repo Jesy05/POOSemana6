@@ -1,4 +1,4 @@
-package org.example;
+package maintiendaapp;
 
 import javax.swing.*;
 
